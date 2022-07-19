@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ZerodhaSuite">
+  <test thread-count="5" name="ZerodhaLoginTest">
+    <classes>
+      <class name="ZerodhaTestClasses.ZerodhaLoginTestClass"/>
+    </classes>
+  </test> <!-- ZerodhaLoginTest -->
+</suite> <!-- ZerodhaSuite -->
